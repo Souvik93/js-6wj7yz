@@ -1,0 +1,26 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+/* Add your css styles here */
+
+div {
+  border : 1px solid red;    
+  display: flex;
+  height : 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  vertical-align: center ;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+div:nth-child(2n+1) {
+  background-color: yellow;
+}
+
+div:nth-child(2n) {
+  background-color: orange;
+}
